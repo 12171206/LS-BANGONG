@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 凭据与本地状态（绝不要提交）
+credentials.json
+*credentials*.json
+.env
+.env.*
+*secret*
+*token*
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.bak
+*.tmp
+*.log
+~$*
